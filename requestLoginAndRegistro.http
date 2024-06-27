@@ -1,0 +1,36 @@
+
+POST http://localhost:2000/api/registrer HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"emi hurt",
+    "password":"Olakase2431@",
+    "email":"adasdsadasdsad@gmail.com",
+    "phone_num": 3896593,
+    "phone_num_prefix":341,
+    "adress.department":5,
+    "adress.number":2431,
+    "adress.street":"superi",
+    "adress.postal_code":2000,
+    "adress.city":"rosario",
+    "adress.province":"santa fe",
+    "isFreight":false,
+    "dni":39455622
+}
+###
+POST http://localhost:2000/api/registrerFreight HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"emi hurt",
+    "password":"Olakase2431@",
+    "email":"adasdsadasdsad@gmail.com"
+}
+###
+POST http://localhost:2000/login HTTP/1.1
+
+
+{
+    "password":"Olakase2431@",
+    "email":"nehuenhurt@gmail.com"
+}

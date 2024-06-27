@@ -1,0 +1,24 @@
+
+
+###
+
+GET http://localhost:2000/api/users HTTP/1.1
+Content-Type: application/json
+Authorization:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmMjVjZGFhZTY4YmFhNzBlZGE5MDMiLCJpYXQiOjE3MTg4NTUzMTcsImV4cCI6MTcxODk0MTcxN30._0JOYejcQa4m0QaLLEvNZE1JhgxUR1lUATkwMbA76YE
+
+###
+GET http://localhost:2000/api/users/666e4dabff0c8c40f1b5eea9 HTTP/1.1
+
+###
+PUT http://localhost:2000/api/users/666e4dabff0c8c40f1b5eea9 HTTP/1.1
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NjZmMjVjZGFhZTY4YmFhNzBlZGE5MDMiLCJpYXQiOjE3MTg4NTUzMTcsImV4cCI6MTcxODk0MTcxN30._0JOYejcQa4m0QaLLEvNZE1JhgxUR1lUATkwMbA76YE
+
+{
+    "name":"NEHUEN EMILIANO HURT",
+    "age":28,
+    "email":"nehuenhurt@hotmail.com"
+}
+
+###
+DELETE http://localhost:2000/api/users/666e4dabff0c8c40f1b5eea9 HTTP/1.1
