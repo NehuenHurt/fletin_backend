@@ -4,7 +4,7 @@ require("dotenv").config();
 require("./config auth2.0/google");
 const userRoutes = require("./routes/user");
 const freightRoutes = require("./routes/freight");
-const loginAndRegistrer = require("./routes/loginAndRegistrer");
+const loginAndRegistrer = require("./routes/loginAndRegister");
 const googleRoutes = require("./routes/auth 2.0/google");
 const VerifyToken = require("./middleware/verifyToken");
 const app = express();
